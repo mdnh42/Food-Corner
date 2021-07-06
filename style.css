@@ -1,0 +1,147 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+}
+
+
+/*Primary Section Start Here */
+
+.leftSide{
+    width: 50%;
+    margin-top: 7%;
+    margin-left: 10%; 
+}
+
+.rightSide img{
+    width: 80%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+#headingStyle{
+    color: #FB8A46;
+}
+#tyleStyle{
+    color: #fd3815;   
+}
+h1{
+    color: #575757;
+    font-size: 40px;
+    
+}
+
+p{
+    color: #C1C1C1;
+}
+.linkButton{
+    padding: 15px 30px;
+    background-image: linear-gradient(to right, #ff8f44, #fd3815);
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+}
+/*Primary Section Ending */
+
+/*About Section Start Here*/
+#aboutSection{
+    background-image: url(images/AboutBanner.png);
+}
+.leftSide img{
+    width: 80%;
+}
+.aboutSize{
+    margin-top: 170px;
+    margin-left: 320px;
+    margin-right: 20px;
+}
+
+/*About Section end Here*/
+
+/*Recipie Section Start Here*/
+.recipieHeading h1{
+    text-align: center;
+}
+.recipieHeading p{
+    text-align: center;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+.recipie{
+    width: 25%;
+    margin: 20px 20px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 20px;
+    
+   
+}
+.itemDescription{
+    padding: 15px 15px;
+}
+.itemDescription h3{
+    font-weight: bold;
+}
+.recipie img{
+    width:90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
+/*Recipie Section end Here*/
+
+/*Features Section start Here*/
+.featureHeading h5{
+    text-align: center;
+    color: #FB8A46;
+    font-size: 20px;
+}
+.featureHeading h1{
+    text-align: center;
+}
+.servce{
+    box-sizing: border-box;
+    display: flex;
+   
+   
+    
+}
+.serviceIteam{
+    text-align: center;
+    width: 80%;
+}
+.serviceIteam img{
+    width: 30%;
+}
+
+/*Features Section ending Here*/
+/*Footer Start  Here*/
+#footersection{
+    background-color: black;
+    text-align: center;
+    color: #575757;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+#footerStyle{
+    color: #FB8A46;
+}
+/*Footer end Here*/
+
+
+
+
+
+
+
